@@ -1,0 +1,21 @@
+html{
+    background-color: antiquewhite;
+}
+span {
+    font-size: 40px;
+    font-weight: bolder;
+}
+.title{
+    width:fit-content;
+    height: 50px;
+    margin: auto;
+}
+table, th, td {
+    margin-top: 100px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th:nth-child(even),td:nth-child(even) {
+    background-color: #D6EEEE;
+}
