@@ -1,21 +1,69 @@
-html{
-    background-color: antiquewhite;
-}
-span {
-    font-size: 40px;
-    font-weight: bolder;
-}
-.title{
-    width:fit-content;
-    height: 50px;
-    margin: auto;
-}
-table, th, td {
-    margin-top: 100px;
-    border: 1px solid black;
-    border-collapse: collapse;
-}
 
-th:nth-child(even),td:nth-child(even) {
-    background-color: #D6EEEE;
-}
+
+    /* Styles for screens up to 600px wide (e.g., mobile devices) */
+    @media screen and (max-width: 600px) {
+        html{
+            background-color: antiquewhite;
+        }
+        span {
+            font-size: 40px;
+            font-weight: bolder;
+        }
+        .title{
+            width: 220px;
+            height: 50px;
+            margin: auto;
+        }
+        table, th, td {
+            margin-top: 100px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th:nth-child(even),td:nth-child(even) {
+            background-color: #D6EEEE;
+            }
+
+        #table1 {
+            width: 80%;
+            margin-left: 10%;
+        }
+        #table2 {
+            width: 75%;
+            margin-left: 12.5%;
+        }
+    }
+
+    /* Styles for screens larger than 768px wide (e.g., tablets and desktops) */
+    @media screen and (min-width: 768px) {
+        html{
+            background-color: antiquewhite;
+        }
+        span {
+            font-size: 40px;
+            font-weight: bolder;
+        }
+        .title{
+            width:fit-content;
+            height: 50px;
+            margin: auto;
+        }
+        table, th, td {
+            margin-top: 100px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th:nth-child(even),td:nth-child(even) {
+            background-color: #D6EEEE;
+            }
+
+        #table1 {
+            width: 80%;
+            margin-left: 10%;
+        }
+        #table2 {
+            width: 75%;
+            margin-left: 12.5%;
+        }
+    }
